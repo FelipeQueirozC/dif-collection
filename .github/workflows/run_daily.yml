@@ -14,6 +14,10 @@ jobs:
   build-and-commit:
     # Usamos a última versão do Ubuntu
     runs-on: ubuntu-latest
+    
+    # Dê permissão ao job para fazer "git push" (escrever no conteúdo)
+    permissions:
+      contents: write
 
     steps:
       # 1. Baixa o código do seu repositório para a máquina virtual
