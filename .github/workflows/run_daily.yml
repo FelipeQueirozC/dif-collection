@@ -1,0 +1,56 @@
+name: Atualizar Curva DI Diariamente
+
+on:
+  # Permite rodar manualmente pela aba "Actions" do GitHub
+  workflow_dispatch:
+  
+  # Define a agenda (schedule)
+  schedule:
+    # Roda todo dia às 23:00 UTC (20:00 no Horário de Brasília)
+    # Escolha um horário após o fechamento do pregão e publicação dos ajustes.
+    - cron: '0 23 * * *'
+
+jobs:
+  build-and-commit:
+    # Usamos a última versão do Ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Baixa o código do seu repositório para a máquina virtual
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      # 2. Configura o ambiente Python
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3. Instala as dependências (Python + Navegador)
+      - name: Instalar Dependências e Playwright
+        run: |
+          pip install pandas lxml playwright bizdays
+          # Instala o navegador Chromium que o Playwright precisa
+          python -m playwright install chromium
+
+      # 4. Executa o script
+      - name: Executar o script de coleta (coleta_di.py)
+        run: python coleta_di.py
+
+      # 5. Faz o commit do novo arquivo JSON
+      - name: Fazer o Commit do database
+        run: |
+          # Configura o "usuário" bot do Git
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'github-actions-bot@github.com'
+          
+          # Adiciona o arquivo de database
+          # Se o arquivo não mudou, os próximos comandos não farão nada
+          git add di1_database.json
+          
+          # Cria um commit APENAS se houver mudanças (git diff)
+          # A flag --quiet faz o diff "falhar" (retornar 1) se houver mudanças
+          git diff --staged --quiet || git commit -m "Atualiza database DI1 - $(date -u +'%Y-%m-%d')"
+          
+          # Envia o commit de volta para o repositório
+          git push
