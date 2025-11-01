@@ -8,7 +8,7 @@ on:
   schedule:
     # Roda todo dia às 23:00 UTC (20:00 no Horário de Brasília)
     # Escolha um horário após o fechamento do pregão e publicação dos ajustes.
-    - cron: '0 23 * * *'
+    - cron: '1 23 * * *'
 
 jobs:
   build-and-commit:
