@@ -2,8 +2,18 @@ name: Atualizar Curva DI Diariamente (Fallback API)
 
 on:
   workflow_dispatch:
+  
   schedule:
-    # Roda todo dia às 22:01 UTC (19:01 no Horário de Brasília)
+    # --- BLOCO DE AGENDA ATUALIZADO ---
+    
+    # Roda às 13:01 UTC (10:01 no Horário de Brasília)
+    # Objetivo: Rodar em "MODO BACKFILL" (pregão aberto)
+    # para salvar o ajuste de D-1 (dia anterior), caso tenha falhado.
+    - cron: '1 13 * * *'
+    
+    # Roda às 22:01 UTC (19:01 no Horário de Brasília)
+    # Objetivo: Rodar em "MODO PADRÃO" (pós-fechamento)
+    # para salvar o ajuste de D (dia atual).
     - cron: '1 22 * * *'
 
 jobs:
@@ -25,11 +35,9 @@ jobs:
         run: |
           pip install pandas lxml bizdays requests
 
-      # --- ETAPA DE EXECUÇÃO MODIFICADA ---
       - name: Executar o script de coleta (coleta_di_fallback.py)
         run: python coleta_di_fallback.py
 
-      # --- ETAPA DE COMMIT MODIFICADA ---
       - name: Fazer o Commit do database
         run: |
           git config --global user.name 'GitHub Actions Bot'
