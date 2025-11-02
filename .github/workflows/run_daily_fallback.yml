@@ -1,0 +1,45 @@
+name: Atualizar Curva DI Diariamente (Fallback API)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Roda todo dia às 22:01 UTC (19:01 no Horário de Brasília)
+    - cron: '1 22 * * *'
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar Dependências
+        run: |
+          pip install pandas lxml bizdays requests
+
+      # --- ETAPA DE EXECUÇÃO MODIFICADA ---
+      - name: Executar o script de coleta (coleta_di_fallback.py)
+        run: python coleta_di_fallback.py
+
+      # --- ETAPA DE COMMIT MODIFICADA ---
+      - name: Fazer o Commit do database
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'github-actions-bot@github.com'
+          
+          # Adiciona o novo arquivo de database
+          git add di1_database_fallback.json
+          
+          # Cria um commit APENAS se houver mudanças
+          git diff --staged --quiet || git commit -m "Atualiza database DI1 (fallback) - $(date -u +'%Y-%m-%d')"
+          
+          # Envia o commit de volta para o repositório
+          git push
