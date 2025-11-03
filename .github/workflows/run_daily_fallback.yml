@@ -11,10 +11,10 @@ on:
     # para salvar o ajuste de D-1 (dia anterior), caso tenha falhado.
     - cron: '1 13 * * *'
     
-    # Roda às 22:01 UTC (19:01 no Horário de Brasília)
+    # Roda às 21:01 UTC (18:01 no Horário de Brasília)
     # Objetivo: Rodar em "MODO PADRÃO" (pós-fechamento)
     # para salvar o ajuste de D (dia atual).
-    - cron: '1 22 * * *'
+    - cron: '1 21 * * *'
 
 jobs:
   build-and-commit:
