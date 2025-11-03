@@ -1,9 +1,5 @@
 {
   "data": {
-    "2025-10-04": {
-      "contratos": [],
-      "status": "feriado"
-    },
     "2025-10-05": {
       "contratos": [],
       "status": "feriado"
@@ -293,6 +289,6 @@
     }
   },
   "metadata": {
-    "last_updated": "2025-11-02T19:23:50.017580-03:00"
+    "last_updated": "2025-11-03T10:34:46.999970-03:00"
   }
 }
