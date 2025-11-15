@@ -2732,9 +2732,13 @@
         }
       ],
       "status": "dia_util"
+    },
+    "2025-11-15": {
+      "contratos": [],
+      "status": "feriado"
     }
   },
   "metadata": {
-    "last_updated": "2025-11-14T18:11:35.018256-03:00"
+    "last_updated": "2025-11-15T10:28:08.572045-03:00"
   }
 }
