@@ -8,7 +8,7 @@ Lógica de Coleta (Sensível ao Horário):
 - A API sempre retorna o último ajuste calculado em 'prvsDayAdjstmntPric'.
 - O script determina a data (D ou D-1) a que esse ajuste se refere.
 - Salva em arquivos JSON separados (ex: di1_fallback.json, dap_fallback.json).
-- Mantém histórico de 30 dias (configurável).
+- Mantém histórico de 90 dias (configurável).
 """
 
 from __future__ import annotations
@@ -31,7 +31,7 @@ import bizdays
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- Constantes e Configurações ---
-DIAS_HISTORICO = 30
+DIAS_HISTORICO = 90
 HORA_AJUSTE = 18    # 18:00
 MINUTO_AJUSTE = 1   # 01 -> 18:01
 
@@ -305,3 +305,4 @@ def executar_atualizacao_principal():
 
 if __name__ == "__main__":
     executar_atualizacao_principal()
+
