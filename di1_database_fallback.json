@@ -6204,9 +6204,13 @@
     "2025-12-06": {
       "contratos": [],
       "status": "feriado"
+    },
+    "2025-12-07": {
+      "contratos": [],
+      "status": "feriado"
     }
   },
   "metadata": {
-    "last_updated": "2025-12-06T18:10:24.526201-03:00"
+    "last_updated": "2025-12-07T10:29:37.264627-03:00"
   }
 }
