@@ -1,9 +1,5 @@
 {
   "data": {
-    "2025-09-21": {
-      "contratos": [],
-      "status": "feriado"
-    },
     "2025-09-22": {
       "contratos": [
         {
@@ -13466,9 +13462,13 @@
       "contratos": [],
       "erro_msg": "Não foi possível alinhar tabelas VENCTO e AJUSTE.",
       "status": "erro_coleta"
+    },
+    "2025-12-20": {
+      "contratos": [],
+      "status": "feriado"
     }
   },
   "metadata": {
-    "last_updated": "2025-12-19T20:21:10.958584-03:00"
+    "last_updated": "2025-12-20T20:20:10.643468-03:00"
   }
 }
