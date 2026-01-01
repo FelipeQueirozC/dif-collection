@@ -10293,9 +10293,13 @@
         }
       ],
       "status": "dia_util"
+    },
+    "2026-01-01": {
+      "contratos": [],
+      "status": "feriado"
     }
   },
   "metadata": {
-    "last_updated": "2025-12-31T18:11:39.553168-03:00"
+    "last_updated": "2026-01-01T10:37:08.707447-03:00"
   }
 }
