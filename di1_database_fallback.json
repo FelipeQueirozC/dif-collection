@@ -13102,9 +13102,13 @@
     "2026-01-17": {
       "contratos": [],
       "status": "feriado"
+    },
+    "2026-01-18": {
+      "contratos": [],
+      "status": "feriado"
     }
   },
   "metadata": {
-    "last_updated": "2026-01-17T18:11:03.006874-03:00"
+    "last_updated": "2026-01-18T10:33:04.922848-03:00"
   }
 }
