@@ -1,10 +1,5 @@
 {
   "data": {
-    "2025-11-14": {
-      "contratos": [],
-      "erro_msg": "Could not locate matching VENCTO and AJUSTE ANTER.* tables with equal rows.\nTable shapes: [(3, 1), (1, 1), (1, 1), (4, 2)]\nHeuristics expect: a 1-column table containing 'VENCTO' in cell [0,0], and a table with >=11 columns whose cell [0,0] starts with 'AJUSTE ANTER'.",
-      "status": "erro_coleta"
-    },
     "2025-11-15": {
       "contratos": [],
       "status": "feriado"
@@ -4445,9 +4440,14 @@
       "contratos": [],
       "erro_msg": "Não foi possível alinhar tabelas VENCTO e AJUSTE.",
       "status": "erro_coleta"
+    },
+    "2026-02-12": {
+      "contratos": [],
+      "erro_msg": "Não foi possível alinhar tabelas VENCTO e AJUSTE.",
+      "status": "erro_coleta"
     }
   },
   "metadata": {
-    "last_updated": "2026-02-11T20:34:45.684816-03:00"
+    "last_updated": "2026-02-12T20:31:58.498516-03:00"
   }
 }
