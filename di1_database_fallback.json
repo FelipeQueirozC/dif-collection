@@ -16381,9 +16381,302 @@
     "2026-03-29": {
       "contratos": [],
       "status": "feriado"
+    },
+    "2026-03-30": {
+      "contratos": [
+        {
+          "codigo": "DI1J26",
+          "preco_ajuste": 99891.55580888056,
+          "taxa": 0.1465,
+          "vencimento": "2026-04-01"
+        },
+        {
+          "codigo": "DI1K26",
+          "preco_ajuste": 98814.087695612,
+          "taxa": 0.14643,
+          "vencimento": "2026-05-04"
+        },
+        {
+          "codigo": "DI1M26",
+          "preco_ajuste": 97761.98520537005,
+          "taxa": 0.14546,
+          "vencimento": "2026-06-01"
+        },
+        {
+          "codigo": "DI1N26",
+          "preco_ajuste": 96671.96020813524,
+          "taxa": 0.14498,
+          "vencimento": "2026-07-01"
+        },
+        {
+          "codigo": "DI1Q26",
+          "preco_ajuste": 95499.56124631058,
+          "taxa": 0.14446,
+          "vencimento": "2026-08-03"
+        },
+        {
+          "codigo": "DI1U26",
+          "preco_ajuste": 94450.66506035328,
+          "taxa": 0.14392,
+          "vencimento": "2026-09-01"
+        },
+        {
+          "codigo": "DI1V26",
+          "preco_ajuste": 93410.27414578348,
+          "taxa": 0.14363,
+          "vencimento": "2026-10-01"
+        },
+        {
+          "codigo": "DI1X26",
+          "preco_ajuste": 92383.81748272789,
+          "taxa": 0.14337,
+          "vencimento": "2026-11-03"
+        },
+        {
+          "codigo": "DI1Z26",
+          "preco_ajuste": 91457.41748554356,
+          "taxa": 0.14333,
+          "vencimento": "2026-12-01"
+        },
+        {
+          "codigo": "DI1F27",
+          "preco_ajuste": 90414.45104597739,
+          "taxa": 0.14299,
+          "vencimento": "2027-01-04"
+        },
+        {
+          "codigo": "DI1G27",
+          "preco_ajuste": 89467.67250474165,
+          "taxa": 0.14288,
+          "vencimento": "2027-02-01"
+        },
+        {
+          "codigo": "DI1H27",
+          "preco_ajuste": 88620.36847030603,
+          "taxa": 0.14285,
+          "vencimento": "2027-03-01"
+        },
+        {
+          "codigo": "DI1J27",
+          "preco_ajuste": 87608.53232120928,
+          "taxa": 0.14265,
+          "vencimento": "2027-04-01"
+        },
+        {
+          "codigo": "DI1N27",
+          "preco_ajuste": 84783.9480121854,
+          "taxa": 0.14212999999999998,
+          "vencimento": "2027-07-01"
+        },
+        {
+          "codigo": "DI1Q27",
+          "preco_ajuste": 83833.2942867546,
+          "taxa": 0.14185,
+          "vencimento": "2027-08-02"
+        },
+        {
+          "codigo": "DI1V27",
+          "preco_ajuste": 81966.75913659063,
+          "taxa": 0.14176,
+          "vencimento": "2027-10-01"
+        },
+        {
+          "codigo": "DI1X27",
+          "preco_ajuste": 81138.04618770091,
+          "taxa": 0.14150000000000001,
+          "vencimento": "2027-11-01"
+        },
+        {
+          "codigo": "DI1Z27",
+          "preco_ajuste": 80320.62226389011,
+          "taxa": 0.14124,
+          "vencimento": "2027-12-01"
+        },
+        {
+          "codigo": "DI1F28",
+          "preco_ajuste": 79377.39395832756,
+          "taxa": 0.14108,
+          "vencimento": "2028-01-03"
+        },
+        {
+          "codigo": "DI1J28",
+          "preco_ajuste": 76848.30158078564,
+          "taxa": 0.14073,
+          "vencimento": "2028-04-03"
+        },
+        {
+          "codigo": "DI1N28",
+          "preco_ajuste": 74443.45727723461,
+          "taxa": 0.14069,
+          "vencimento": "2028-07-03"
+        },
+        {
+          "codigo": "DI1V28",
+          "preco_ajuste": 72017.96112327957,
+          "taxa": 0.14055,
+          "vencimento": "2028-10-02"
+        },
+        {
+          "codigo": "DI1X28",
+          "preco_ajuste": 71233.00975269424,
+          "taxa": 0.14055,
+          "vencimento": "2028-11-01"
+        },
+        {
+          "codigo": "DI1Z28",
+          "preco_ajuste": 70535.11553977398,
+          "taxa": 0.14052,
+          "vencimento": "2028-12-01"
+        },
+        {
+          "codigo": "DI1F29",
+          "preco_ajuste": 69796.1972697911,
+          "taxa": 0.14056,
+          "vencimento": "2029-01-02"
+        },
+        {
+          "codigo": "DI1J29",
+          "preco_ajuste": 67609.16088823324,
+          "taxa": 0.14056,
+          "vencimento": "2029-04-02"
+        },
+        {
+          "codigo": "DI1N29",
+          "preco_ajuste": 65383.484482565706,
+          "taxa": 0.14077,
+          "vencimento": "2029-07-02"
+        },
+        {
+          "codigo": "DI1V29",
+          "preco_ajuste": 63226.88931676646,
+          "taxa": 0.1408,
+          "vencimento": "2029-10-01"
+        },
+        {
+          "codigo": "DI1X29",
+          "preco_ajuste": 62498.06792098424,
+          "taxa": 0.14083,
+          "vencimento": "2029-11-01"
+        },
+        {
+          "codigo": "DI1Z29",
+          "preco_ajuste": 61876.33466834397,
+          "taxa": 0.14085,
+          "vencimento": "2029-12-03"
+        },
+        {
+          "codigo": "DI1F30",
+          "preco_ajuste": 61222.60222814526,
+          "taxa": 0.1409,
+          "vencimento": "2030-01-02"
+        },
+        {
+          "codigo": "DI1J30",
+          "preco_ajuste": 59312.302122555164,
+          "taxa": 0.14084,
+          "vencimento": "2030-04-01"
+        },
+        {
+          "codigo": "DI1N30",
+          "preco_ajuste": 57405.49774234892,
+          "taxa": 0.14090999999999998,
+          "vencimento": "2030-07-01"
+        },
+        {
+          "codigo": "DI1V30",
+          "preco_ajuste": 55446.47727782443,
+          "taxa": 0.14096,
+          "vencimento": "2030-10-01"
+        },
+        {
+          "codigo": "DI1F31",
+          "preco_ajuste": 53601.74414683528,
+          "taxa": 0.14117000000000002,
+          "vencimento": "2031-01-02"
+        },
+        {
+          "codigo": "DI1J31",
+          "preco_ajuste": 51910.91830339882,
+          "taxa": 0.14119,
+          "vencimento": "2031-04-01"
+        },
+        {
+          "codigo": "DI1N31",
+          "preco_ajuste": 50252.365160994465,
+          "taxa": 0.1413,
+          "vencimento": "2031-07-01"
+        },
+        {
+          "codigo": "DI1V31",
+          "preco_ajuste": 48521.69410916816,
+          "taxa": 0.14139,
+          "vencimento": "2031-10-01"
+        },
+        {
+          "codigo": "DI1F32",
+          "preco_ajuste": 46886.16654303918,
+          "taxa": 0.14153000000000002,
+          "vencimento": "2032-01-02"
+        },
+        {
+          "codigo": "DI1F33",
+          "preco_ajuste": 41056.16492490249,
+          "taxa": 0.1416,
+          "vencimento": "2033-01-03"
+        },
+        {
+          "codigo": "DI1F34",
+          "preco_ajuste": 36004.511250891315,
+          "taxa": 0.14151,
+          "vencimento": "2034-01-02"
+        },
+        {
+          "codigo": "DI1F35",
+          "preco_ajuste": 31658.105610423612,
+          "taxa": 0.1413,
+          "vencimento": "2035-01-02"
+        },
+        {
+          "codigo": "DI1F36",
+          "preco_ajuste": 27827.174849147923,
+          "taxa": 0.14111,
+          "vencimento": "2036-01-02"
+        },
+        {
+          "codigo": "DI1F37",
+          "preco_ajuste": 24345.893504191703,
+          "taxa": 0.14123,
+          "vencimento": "2037-01-02"
+        },
+        {
+          "codigo": "DI1F38",
+          "preco_ajuste": 21463.081501069537,
+          "taxa": 0.14079,
+          "vencimento": "2038-01-04"
+        },
+        {
+          "codigo": "DI1F39",
+          "preco_ajuste": 18861.76144107062,
+          "taxa": 0.14061,
+          "vencimento": "2039-01-03"
+        },
+        {
+          "codigo": "DI1F40",
+          "preco_ajuste": 16578.94959882301,
+          "taxa": 0.14044,
+          "vencimento": "2040-01-02"
+        },
+        {
+          "codigo": "DI1F41",
+          "preco_ajuste": 14539.402839799015,
+          "taxa": 0.14051,
+          "vencimento": "2041-01-02"
+        }
+      ],
+      "status": "dia_util"
     }
   },
   "metadata": {
-    "last_updated": "2026-03-30T11:41:55.788172-03:00"
+    "last_updated": "2026-03-30T18:33:56.134575-03:00"
   }
 }
