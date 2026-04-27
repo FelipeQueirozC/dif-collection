@@ -1,10 +1,5 @@
 {
   "data": {
-    "2026-01-26": {
-      "contratos": [],
-      "erro_msg": "Não foi possível alinhar tabelas VENCTO e AJUSTE.",
-      "status": "erro_coleta"
-    },
     "2026-01-27": {
       "contratos": [],
       "erro_msg": "Não foi possível alinhar tabelas VENCTO e AJUSTE.",
@@ -387,9 +382,13 @@
     "2026-04-25": {
       "contratos": [],
       "status": "feriado"
+    },
+    "2026-04-26": {
+      "contratos": [],
+      "status": "feriado"
     }
   },
   "metadata": {
-    "last_updated": "2026-04-25T20:39:52.946798-03:00"
+    "last_updated": "2026-04-26T20:41:02.448316-03:00"
   }
 }
