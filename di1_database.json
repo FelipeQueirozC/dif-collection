@@ -1,9 +1,5 @@
 {
   "data": {
-    "2026-02-21": {
-      "contratos": [],
-      "status": "feriado"
-    },
     "2026-02-22": {
       "contratos": [],
       "status": "feriado"
@@ -371,9 +367,14 @@
     "2026-05-21": {
       "contratos": [],
       "status": "sem_dados"
+    },
+    "2026-05-22": {
+      "contratos": [],
+      "erro_msg": "Timeout navegando para https://www2.bmf.com.br/pages/portal/bmfbovespa/boletim1/SistemaPregao1.asp?Data=22/05/2026&Mercadoria=DI1",
+      "status": "erro_coleta"
     }
   },
   "metadata": {
-    "last_updated": "2026-05-21T21:04:17.706222-03:00"
+    "last_updated": "2026-05-22T21:08:38.140818-03:00"
   }
 }
