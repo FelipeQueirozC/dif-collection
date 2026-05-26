@@ -1,10 +1,5 @@
 {
   "data": {
-    "2026-02-24": {
-      "contratos": [],
-      "erro_msg": "Não foi possível alinhar tabelas VENCTO e AJUSTE.",
-      "status": "erro_coleta"
-    },
     "2026-02-25": {
       "contratos": [],
       "erro_msg": "Não foi possível alinhar tabelas VENCTO e AJUSTE.",
@@ -371,9 +366,14 @@
     "2026-05-24": {
       "contratos": [],
       "status": "feriado"
+    },
+    "2026-05-25": {
+      "contratos": [],
+      "erro_msg": "Timeout navegando para https://www2.bmf.com.br/pages/portal/bmfbovespa/boletim1/SistemaPregao1.asp?Data=25/05/2026&Mercadoria=DI1",
+      "status": "erro_coleta"
     }
   },
   "metadata": {
-    "last_updated": "2026-05-24T21:00:52.113374-03:00"
+    "last_updated": "2026-05-25T21:07:21.868366-03:00"
   }
 }
