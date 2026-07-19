@@ -1,9 +1,5 @@
 {
   "data": {
-    "2026-04-19": {
-      "contratos": [],
-      "status": "feriado"
-    },
     "2026-04-20": {
       "contratos": [],
       "status": "sem_dados"
@@ -382,9 +378,13 @@
       "contratos": [],
       "erro_msg": "Timeout navegando para https://www2.bmf.com.br/pages/portal/bmfbovespa/boletim1/SistemaPregao1.asp?Data=17/07/2026&Mercadoria=DI1",
       "status": "erro_coleta"
+    },
+    "2026-07-18": {
+      "contratos": [],
+      "status": "feriado"
     }
   },
   "metadata": {
-    "last_updated": "2026-07-17T20:53:53.157838-03:00"
+    "last_updated": "2026-07-18T20:55:11.469020-03:00"
   }
 }
