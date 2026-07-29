@@ -17498,9 +17498,14 @@
         }
       ],
       "status": "dia_util"
+    },
+    "2026-07-29": {
+      "contratos": [],
+      "erro_msg": "Vazio",
+      "status": "erro_coleta"
     }
   },
   "metadata": {
-    "last_updated": "2026-07-29T12:10:18.152397-03:00"
+    "last_updated": "2026-07-29T18:49:53.947683-03:00"
   }
 }
