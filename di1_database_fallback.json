@@ -16935,9 +16935,14 @@
     "2026-08-02": {
       "contratos": [],
       "status": "feriado"
+    },
+    "2026-08-03": {
+      "contratos": [],
+      "erro_msg": "Vazio",
+      "status": "erro_coleta"
     }
   },
   "metadata": {
-    "last_updated": "2026-08-03T12:46:06.713536-03:00"
+    "last_updated": "2026-08-03T18:58:42.152232-03:00"
   }
 }
