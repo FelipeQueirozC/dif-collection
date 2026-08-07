@@ -16089,9 +16089,14 @@
       "contratos": [],
       "erro_msg": "Vazio",
       "status": "erro_coleta"
+    },
+    "2026-08-06": {
+      "contratos": [],
+      "erro_msg": "Vazio",
+      "status": "erro_coleta"
     }
   },
   "metadata": {
-    "last_updated": "2026-08-06T12:18:10.916568-03:00"
+    "last_updated": "2026-08-06T21:59:02.834805-03:00"
   }
 }
