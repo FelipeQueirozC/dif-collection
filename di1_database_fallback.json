@@ -1,10 +1,5 @@
 {
   "data": {
-    "2026-07-30": {
-      "contratos": [],
-      "erro_msg": "Vazio",
-      "status": "erro_coleta"
-    },
     "2026-07-31": {
       "contratos": [],
       "erro_msg": "Vazio",
@@ -14368,6 +14363,6 @@
     }
   },
   "metadata": {
-    "last_updated": "2026-10-27T21:08:33.958078-03:00"
+    "last_updated": "2026-10-28T15:43:21.164334-03:00"
   }
 }
