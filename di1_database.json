@@ -1,9 +1,5 @@
 {
   "data": {
-    "2026-08-03": {
-      "contratos": [],
-      "status": "sem_dados"
-    },
     "2026-08-04": {
       "contratos": [],
       "status": "sem_dados"
@@ -386,9 +382,13 @@
     "2026-10-31": {
       "contratos": [],
       "status": "feriado"
+    },
+    "2026-11-01": {
+      "contratos": [],
+      "status": "feriado"
     }
   },
   "metadata": {
-    "last_updated": "2026-10-31T22:56:24.301100-03:00"
+    "last_updated": "2026-11-01T23:09:10.583836-03:00"
   }
 }
