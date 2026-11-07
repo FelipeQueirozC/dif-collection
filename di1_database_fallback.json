@@ -1,9 +1,5 @@
 {
   "data": {
-    "2026-08-09": {
-      "contratos": [],
-      "status": "feriado"
-    },
     "2026-08-10": {
       "contratos": [
         {
@@ -15931,9 +15927,13 @@
       "contratos": [],
       "erro_msg": "Vazio",
       "status": "erro_coleta"
+    },
+    "2026-11-07": {
+      "contratos": [],
+      "status": "feriado"
     }
   },
   "metadata": {
-    "last_updated": "2026-11-06T21:30:06.980887-03:00"
+    "last_updated": "2026-11-07T14:58:24.595654-03:00"
   }
 }
